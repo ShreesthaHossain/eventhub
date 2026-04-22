@@ -8,6 +8,7 @@
 /frontend/dist
 /frontend/.env
 /frontend/.env.*
+!/frontend/.env.example
 composer.phar
 .DS_Store
 Thumbs.db
