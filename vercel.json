@@ -4,7 +4,8 @@
   "outputDirectory": "frontend/dist",
   "installCommand": "echo 'skip root install'",
   "framework": null,
+  "cleanUrls": true,
   "rewrites": [
-    { "source": "/((?!api/|assets/).*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
